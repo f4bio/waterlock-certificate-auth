@@ -16,7 +16,7 @@
     "authentication",
     "sails"
   ],
-  "devDependencies":{
+  "devDependencies": {
     "mocha": "*",
     "should": "*",
     "proxyquire": "*",
@@ -24,17 +24,18 @@
     "istanbul": "*",
     "jshint": "*"
   },
-  "dependencies":{
+  "dependencies": {
     "bcrypt": "~0.8.5",
-    "lodash": "~3.10.0",
-    "moment": "~2.10.6",
+    "bluebird": "^2.10.2",
     "jade": "~1.11.0",
     "jwt-simple": "~0.3.0",
-    "node-uuid": "~1.4.2"
+    "lodash": "~3.10.0",
+    "moment": "~2.10.6",
+    "node-uuid": "~1.4.2",
+    "pem": "^1.8.1"
   },
   "author": "Fabio Tea <ft2011@gmail.com>",
-  "contributors": [
-  ],
+  "contributors": [],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/f4bio/waterlock-certificate-auth/issues"
