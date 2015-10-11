@@ -20,12 +20,12 @@ module.exports.waterlock = {
 	// chosen auth method(s) you will need to see the individual module's README
 	// file for more information on the attributes necessary. This is an example
 	// of the local authentication method with password reset tokens disabled.
-	// TODO: remove fingerprint (just for dev purposes)
+	// TODO: remove fingerprint (only added for dev purposes)
 	authMethod: [
 		{
 			name: "waterlock-certificate-auth",
 			fingerprint: "12:34:56:78:90",
-			ca: {
+			certificate: {
 				file: "../certs/ca-crt.pem"
 			}
 		}
