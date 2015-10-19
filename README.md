@@ -3,7 +3,7 @@
 thanks David Rivera for [waterlock-local-auth](https://github.com/waterlock/waterlock-local-auth)
 
 waterlock-ceriticate-auth is a module for [waterlock](http://waterlock.ninja/)
-providing a local authentication method for users either based on username or email.
+providing a certificate-based authentication method for users.
 
 ## Usage
 
@@ -15,9 +15,9 @@ set the following option in your `waterlock.js` config file
 
 ```js
 authMethod:[
-	{
-		name: "waterlock-certificate-auth"
-	}
+    {
+        name: "waterlock-certificate-auth"
+    }
 ]
 ```
 
@@ -25,9 +25,12 @@ authMethod:[
 Local auth adds the following attributes onto the Auth model
 
 ```js
-  fingerprint: {
-    type: 'email',
-    unique: false,
-	required: false
-  }
+certificate: {
+    model: "certificate",
+    required: false
+},
+fingerprint: {
+    type: "string",
+    size: 59
+}
 ```
