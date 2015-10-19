@@ -1,48 +1,48 @@
 {
-  "name": "waterlock-certificate-auth",
-  "version": "0.0.1",
-  "description": "certificate authentication for waterlock",
-  "main": "index.js",
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/f4bio/waterlock-certificate-auth"
-  },
-  "keywords": [
-    "waterlock",
-    "certificate",
-    "authentication",
-    "sails"
-  ],
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "proxyquire": "*",
-    "coveralls": "*",
-    "istanbul": "*",
-    "jshint": "*"
-  },
-  "dependencies": {
-    "bcryptjs": "^2.3.0",
-    "bluebird": "^2.10.2",
-    "jade": "~1.11.0",
-    "jwt-simple": "~0.3.0",
-    "lodash": "~3.10.0",
-    "moment": "~2.10.6",
-    "node-uuid": "~1.4.2",
-    "pem": "^1.8.1"
-  },
-  "author": "Fabio Tea <ft2011@gmail.com>",
-  "contributors": [],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/f4bio/waterlock-certificate-auth/issues"
-  },
-  "homepage": "https://github.com/f4bio/waterlock-certificate-auth",
-  "preferGlobal": false,
-  "engines": {
-    "node": ">=0.10"
-  }
+	"name": "waterlock-certificate-auth",
+	"version": "0.0.1",
+	"description": "certificate authentication for waterlock",
+	"main": "index.js",
+	"scripts": {
+		"test": "make test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/f4bio/waterlock-certificate-auth"
+	},
+	"keywords": [
+		"waterlock",
+		"certificate",
+		"authentication",
+		"sails"
+	],
+	"devDependencies": {
+		"mocha": "*",
+		"should": "*",
+		"proxyquire": "*",
+		"coveralls": "*",
+		"istanbul": "*",
+		"jshint": "*"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.3.0",
+		"bluebird": "^2.10.2",
+		"jade": "~1.11.0",
+		"jwt-simple": "~0.3.0",
+		"lodash": "~3.10.0",
+		"moment": "~2.10.6",
+		"node-uuid": "~1.4.2",
+		"pem": "^1.8.1"
+	},
+	"author": "Fabio Tea <ft2011@gmail.com>",
+	"contributors": [],
+	"license": "LICENSE",
+	"bugs": {
+		"url": "https://github.com/f4bio/waterlock-certificate-auth/issues"
+	},
+	"homepage": "https://github.com/f4bio/waterlock-certificate-auth",
+	"preferGlobal": false,
+	"engines": {
+		"node": ">=0.10"
+	}
 }
